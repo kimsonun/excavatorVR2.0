@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7914915307866311568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd8393dfcda7614ba44f4d1ad3f0f29, type: 3}
+  m_Name: Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_density: 1000
+  m_youngsWireStretch: 6e+10
+  m_youngsWireBend: 6e+10
+--- !u!114 &-7696357020551560779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2135dc92f817349a5e8f6ac3477155, type: 3}
+  m_Name: excavator_CAT365_ShapeMaterial
+  m_EditorClassIdentifier: 
+  m_type: 0
+--- !u!114 &-6617900159176337836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd8393dfcda7614ba44f4d1ad3f0f29, type: 3}
+  m_Name: BucketMaterial
+  m_EditorClassIdentifier: 
+  m_density: 1000
+  m_youngsWireStretch: 6e+10
+  m_youngsWireBend: 6e+10
+--- !u!114 &-4340208378660225075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd8393dfcda7614ba44f4d1ad3f0f29, type: 3}
+  m_Name: Unknown Material
+  m_EditorClassIdentifier: 
+  m_density: 1000
+  m_youngsWireStretch: 6e+10
+  m_youngsWireBend: 6e+10
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd8393dfcda7614ba44f4d1ad3f0f29, type: 3}
+  m_Name: excavator_CAT365_ShapeMaterial
+  m_EditorClassIdentifier: 
+  m_density: 1000
+  m_youngsWireStretch: 6e+10
+  m_youngsWireBend: 6e+10

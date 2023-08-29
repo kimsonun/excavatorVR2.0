@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7157409204207731529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_BucketMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-6241614226526433750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BodyMaterial_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-3776220067202211862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_RollerMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: excavator_CAT365_FrictionModel
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &2001890802371045670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_RollerMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &2009469746708025866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2135dc92f817349a5e8f6ac3477155, type: 3}
+  m_Name: excavator_CAT365_FrictionModel
+  m_EditorClassIdentifier: 
+  m_type: 2
+--- !u!114 &3867396378462190981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BodyMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &5329151846729883505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_BucketMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &7018011434607194780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_Unknown Material
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &8707205325203629058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BodyMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &8945046718332708521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_BucketMaterial_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0

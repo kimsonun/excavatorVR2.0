@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8663541659742970507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_BucketMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -6617900159176337836, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 5329151846729883505, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-8554276073144790877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_BucketMaterial_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -6617900159176337836, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -6617900159176337836, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 8945046718332708521, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-8334887556862277377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BodyMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_material2: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 8707205325203629058, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-7661270470415123664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BodyMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_material2: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 3867396378462190981, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-6737780393797840481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_RollerMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 2001890802371045670, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-6533133884904624137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BodyMaterial_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_material2: {fileID: -6617900159176337836, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: -6241614226526433750, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &-102952046513902520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_BucketMaterial_Unknown Material
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -6617900159176337836, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: -7157409204207731529, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: excavator_CAT365_ContactMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_material2: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_frictionModel: {fileID: 11400000, guid: 0d2cb12663a95b047ae306b1b4b286b4, type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &3138942791458274466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_RollerMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: -3776220067202211862, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &8834771625202697926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_Unknown Material
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_material2: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886,
+    type: 2}
+  m_frictionModel: {fileID: 7018011434607194780, guid: 0d2cb12663a95b047ae306b1b4b286b4,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.9, y: 0.9}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.15, y: 0.15}
+--- !u!114 &8903086541028809984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2135dc92f817349a5e8f6ac3477155, type: 3}
+  m_Name: excavator_CAT365_ContactMaterial
+  m_EditorClassIdentifier: 
+  m_type: 1

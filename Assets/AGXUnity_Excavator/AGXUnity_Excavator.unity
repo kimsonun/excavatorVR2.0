@@ -1,0 +1,5015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9006284505217563047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BodyMaterial_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-4785354430592669293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 2210400866059690810}
+  m_material2: {fileID: -4340208378660225075, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_frictionModel: {fileID: -3076649962116188187}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.41667, y: 0.41667}
+--- !u!114 &-3076649962116188187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-2394617653753771142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BucketMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 2210400866059690810}
+  m_material2: {fileID: -7914915307866311568, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_frictionModel: {fileID: 2248592869447976631}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.41667, y: 0.41667}
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 0.27
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 2
+  m_ReflectionIntensity: 0.22
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.34698036, g: 0.38872647, b: 0.38253516, a: 0.22}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 06440dbb9e8fb2d4b8f8c14959bd92e2, type: 2}
+  m_LightingSettings: {fileID: 1658371605}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &189766937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189766940}
+  - component: {fileID: 189766939}
+  - component: {fileID: 189766938}
+  - component: {fileID: 189766943}
+  - component: {fileID: 189766942}
+  - component: {fileID: 189766941}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!154 &189766938
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_TerrainData: {fileID: 15600000, guid: f5fb3b15ac45ba64889a8864797cb280, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &189766939
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: f5fb3b15ac45ba64889a8864797cb280, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_IgnoreQualitySettings: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ReceiveGI: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+  m_EnableHeightmapRayTracing: 1
+  m_EnableTreesAndDetailsRayTracing: 0
+--- !u!4 &189766940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -53.579163, y: 2.710752, z: -27.009787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601617339}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189766941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ba13c68cf6d734bbedb06bdb5f4a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &189766942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af01e76dbdc5af4d9cd5b8c0bd272c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_renderMode: 1
+  m_syncMode: 0
+  m_granuleInstance: {fileID: 5762900714346766272, guid: cba9f80cc64248942b035bcd25c85794, type: 3}
+--- !u!114 &189766943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189766937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3038d02bd858d564b9d69ee70340f3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_material: {fileID: 11400000, guid: b157c84e3fb6f10468ec8b6c30925b67, type: 2}
+  m_particleMaterial: {fileID: 11400000, guid: a28b71474335c0844ba12517515c5d9f, type: 2}
+  m_terrainMaterial: {fileID: 11400000, guid: 0f8f715f37c568047b800dda2ff509f0, type: 2}
+  m_properties: {fileID: 11400000, guid: 63d09b7626eaff947810b055d10a1efb, type: 2}
+  m_maximumDepth: 2
+  m_shovels:
+  - {fileID: 1075518873}
+  m_tempDisplayShovelForces: 0
+--- !u!1 &280908683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280908685}
+  - component: {fileID: 280908684}
+  - component: {fileID: 280908686}
+  m_Layer: 0
+  m_Name: SubmergedCylinder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &280908684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280908683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aae0ffb0ed1bdd4ebf40b6a09a3f861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionsEnabled: 1
+  m_isSensor: 0
+  m_enableMassProperties: 1
+  m_material: {fileID: 0}
+  m_radius: 0.5
+  m_height: 4
+--- !u!4 &280908685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280908683}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -0.8991604, y: 2.2407522, z: 8.690215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2001225804}
+  m_Father: {fileID: 2113666917}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &280908686
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280908683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386ebcbdc8800e04cb2c40500a0d24b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_storedLossyScale: {x: 1, y: 1, z: 1}
+  m_topRadius: 0
+  m_bottomRadius: 0
+  m_thickness: 0
+  m_height: 0
+--- !u!1 &324741460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324741462}
+  - component: {fileID: 324741461}
+  - component: {fileID: 324741463}
+  m_Layer: 0
+  m_Name: SubmergedBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &324741461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324741460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9ab00a2b035f9478e3faf9f46c0b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionsEnabled: 1
+  m_isSensor: 0
+  m_enableMassProperties: 1
+  m_material: {fileID: 0}
+  m_halfExtents: {x: 12, y: 0.5, z: 5}
+--- !u!4 &324741462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324741460}
+  m_LocalRotation: {x: -0, y: -0, z: -0.01297069, w: 0.99991596}
+  m_LocalPosition: {x: -18.23916, y: 1.970752, z: 2.270215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2086211237}
+  m_Father: {fileID: 2113666917}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.4860001}
+--- !u!114 &324741463
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324741460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386ebcbdc8800e04cb2c40500a0d24b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_storedLossyScale: {x: 1, y: 1, z: 1}
+  m_topRadius: 0
+  m_bottomRadius: 0
+  m_thickness: 0
+  m_height: 0
+--- !u!1 &483917372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 483917375}
+  - component: {fileID: 483917374}
+  - component: {fileID: 483917373}
+  - component: {fileID: 483917376}
+  - component: {fileID: 483917377}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &483917373
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483917372}
+  m_Enabled: 1
+--- !u!20 &483917374
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483917372}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.19
+  far clip plane: 1000
+  field of view: 74
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: 3
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &483917375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483917372}
+  m_LocalRotation: {x: 0.039508116, y: 0.8957929, z: -0.08140448, w: 0.4351638}
+  m_LocalPosition: {x: 2.555, y: 3.28, z: 12.222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 10.383, y: -231.81999, z: -0.004}
+--- !u!114 &483917376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483917372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c594bc96cd514e4db1ee4ebb52cbcab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Forward: {x: -1.06, y: -0.31, z: -0.53}
+  Distance: 0.5
+  RelativePosition: {x: 1.37, y: 3.57, z: 1.76}
+  m_follow_object: {fileID: 1762181163}
+--- !u!114 &483917377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483917372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1594f458697ab324aa3dac1b47747151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 10
+  increaseSpeed: 1.25
+  allowMovement: 1
+  allowRotation: 1
+  cursorSensitivity: 0.015
+  cursorToggleAllowed: 1
+--- !u!1 &601617338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 601617339}
+  m_Layer: 0
+  m_Name: === Scene ===
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &601617339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601617338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.579161, y: -4.310752, z: -8.390215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 189766940}
+  - {fileID: 1060290806}
+  - {fileID: 1811418234}
+  - {fileID: 1772402739}
+  - {fileID: 1079745861}
+  - {fileID: 1023327929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &607288144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607288146}
+  - component: {fileID: 607288145}
+  m_Layer: 0
+  m_Name: AGXUnity.ContactMaterialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &607288145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607288144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c061fdc43e36bb40ad5a8efc08ce6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_contactMaterials:
+  - ContactMaterial: {fileID: 11400000, guid: 7d489cb22d2862a4abfdb41d09b8544f, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 11400000, guid: 55365de9f82e66d4982b22f19d9cd34c, type: 2}
+    m_isOriented: 1
+    m_referenceObject: {fileID: 1835230864}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 11400000, guid: b3f6f3e8a2108f44eb0e02da361dd0fb, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 11400000, guid: 93f447e1144318146a1a12aad68e6bf2, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 11400000, guid: 2cb4dbf45c356734fa7a23853e1a53d6, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 3138942791458274466, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: -6737780393797840481, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 8834771625202697926, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: -2394617653753771142}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: -4785354430592669293}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 3134743987640456451}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: -7661270470415123664, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: -8334887556862277377, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 5712329992809973550}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+  - ContactMaterial: {fileID: 11400000, guid: 808a114382fe5ee43a400e8d937fc32d, type: 2}
+    m_isOriented: 0
+    m_referenceObject: {fileID: 0}
+    m_primaryDirection: 0
+--- !u!4 &607288146
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607288144}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.186537, y: 3.8242812, z: 6.574567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1174931580}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &800779652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800779654}
+  - component: {fileID: 800779653}
+  m_Layer: 0
+  m_Name: AGXUnity.CollisionGroupsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &800779653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800779652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5998c969dd9204aa1368c51f6ffad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_disabledPairs:
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_3 Id:5676
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearBody Id:6596
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_2 Id:5616
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WL8P Id:5591
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WL2 Id:6271
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_2 Id:5646
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLP_2 Id:5661
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLP_2 Id:5631
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLPIN_1 Id:6381
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:7051
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_2 Id:5646
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLP_3 Id:5691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_2 Id:5616
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLP_2 Id:5631
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WL8 Id:5576
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WL8P Id:5591
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire Id:6361
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:7201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WL2 Id:6271
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WL3 Id:6296
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RearBody Id:6596
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:7201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RearBody Id:6596
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:7351
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire Id:6876
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:7351
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearBody Id:6596
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:6901
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_3 Id:5676
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLP_3 Id:5691
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WL8 Id:5576
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLP_2 Id:5661
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLPIN_1 Id:6381
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:5736
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLPIN_1 Id:6381
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:5736
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WL3 Id:6296
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLP_3 Id:5721
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: TireGroup
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WheelLoaderRear
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_3 Id:5706
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearBody Id:6596
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:6321
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:6901
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLC_3 Id:5706
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLP_3 Id:5721
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WLPIN_1 Id:6381
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontBody Id:6446
+  - First:
+      m_propagateToChildren: 0
+      m_tag: WL2 Id:6271
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WLPIN_1 Id:6381
+  - First:
+      m_propagateToChildren: 0
+      m_tag: TireGroup
+    Second:
+      m_propagateToChildren: 0
+      m_tag: WheelLoaderFront
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:6341
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:7051
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:20586
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:20575
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:20608
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:20759
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:20686
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:20703
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:20759
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:20776
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:20586
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:20647
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:20520
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:20531
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:20479
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:20564
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassie
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:20686
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:20542
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:20479
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:20553
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:20575
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:20686
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:20731
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:20479
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:20531
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:20597
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:20608
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:20619
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:20542
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:20553
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:20520
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:20647
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:20658
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:20479
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:20597
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:20564
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:20832
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:20759
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:20804
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:11797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:11786
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:11819
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:11970
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:11897
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:11914
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:11970
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:11987
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:11797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:11858
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:11731
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:11742
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:11690
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:11775
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:11897
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:11753
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:11690
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:11764
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:11786
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:11897
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:11942
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:11690
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:11742
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:11808
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:11819
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:11830
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:11753
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:11764
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:11731
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:11858
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:11869
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:11690
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:11808
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:11775
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:12043
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:11970
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:12015
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:23396
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:23385
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:23418
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:23569
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:23496
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:23513
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:23569
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:23586
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:23396
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:23457
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:23330
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:23341
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:23289
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:23374
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:23496
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:23352
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:23289
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:23363
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:23385
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:23496
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:23541
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:23289
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:23341
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:23407
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:23418
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:23429
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:23352
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:23363
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:23330
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:23457
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:23468
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:23289
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:23407
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:23374
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:23642
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:23569
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:23614
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:24801
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:24790
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:24823
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:24974
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:24901
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:24918
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:24974
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:24991
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:24801
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:24862
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:24735
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:24746
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:24694
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:24779
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:24901
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:24757
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:24694
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:24768
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:24790
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:24901
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:24946
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:24694
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:24746
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:24812
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:24823
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:24834
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:24757
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:24768
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:24735
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:24862
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:24873
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:24694
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:24812
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:24779
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:25047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:24974
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:25019
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:26206
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:26195
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:26228
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:26379
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:26306
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:26323
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:26379
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:26396
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:26206
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:26267
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:26140
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:26151
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:26099
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:26184
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:26306
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:26162
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:26099
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:26173
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:26195
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:26306
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:26351
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:26099
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:26151
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:26217
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:26228
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:26239
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:26162
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:26173
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:26140
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:26267
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:26278
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:26099
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:26217
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:26184
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:26452
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:26379
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:26424
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:40622
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:40622
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftTire Id:40692
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:40606
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2LeftTire Id:40168
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:40190
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1RightTire Id:40352
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:40374
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:40282
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:40374
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:40190
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2RightTire Id:40260
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:40282
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontRightRim Id:40536
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:40606
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftTire Id:40444
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:40466
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:38952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:40466
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:55075
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:55075
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftTire Id:55145
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:55059
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2LeftTire Id:54621
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:54643
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1RightTire Id:54805
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:54827
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:54735
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:54827
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:54643
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2RightTire Id:54713
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:54735
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontRightRim Id:54989
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:55059
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftTire Id:54897
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:54919
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:53424
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:54919
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:63977
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:63977
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftTire Id:64047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:63961
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2LeftTire Id:63523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:63545
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1RightTire Id:63707
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:63729
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:63637
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:63729
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:63545
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2RightTire Id:63615
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:63637
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontRightRim Id:63891
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:63961
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftTire Id:63799
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:63821
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:62326
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:63821
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:67099
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:67099
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftTire Id:67209
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:67079
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2LeftTire Id:66409
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:66439
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1RightTire Id:66689
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:66719
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:66579
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:66719
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:66439
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2RightTire Id:66549
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:66579
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontRightRim Id:66969
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:67079
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftTire Id:66829
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:66859
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:64924
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:66859
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:552
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:1072
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:322
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:927
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:1017
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:227
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:1047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:287
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:302
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:227
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:1072
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:187
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:302
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:187
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:257
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:322
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:997
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:1027
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Mesh
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Mesh
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:257
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:272
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:212
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:552
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:212
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:242
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:172
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:212
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:212
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:1047
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:987
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:187
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:272
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:947
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:172
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:967
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:187
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:322
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Particles
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Emitter
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:732
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:1007
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:287
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:322
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:227
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:242
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:187
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:212
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:3812
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:3797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:3842
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:4057
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:3952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire1 Id:3977
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:4057
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire1 Id:4082
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightSteering Id:3812
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:3897
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:3722
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:3737
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:3657
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:3782
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:3952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:3752
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:3657
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:3767
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftSteering Id:3797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearRim Id:3952
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearTire2 Id:4017
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:3657
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:3737
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:3827
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontRim Id:3842
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontTire Id:3857
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:3752
+    Second:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM DUMPER Id:3767
+  - First:
+      m_propagateToChildren: 0
+      m_tag: HYDRAULIC SYSTEM BODY Id:3722
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightFrontRim Id:3897
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontTire Id:3912
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bed Id:3657
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearDamper Id:3827
+  - First:
+      m_propagateToChildren: 0
+      m_tag: LeftRearDamper Id:3782
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Chassi Id:4162
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RightRearRim Id:4057
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearTire2 Id:4122
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2242
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2670
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2092
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:2549
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:2627
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2021
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2653
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2065
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2076
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2021
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2670
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:1993
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2076
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:1971
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:1993
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2043
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2092
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:2607
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:2637
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2043
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2054
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:2010
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2242
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:2010
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2032
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:1982
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:2010
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:2010
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2653
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:2597
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:1993
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2054
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:2565
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:1971
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:1982
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:2581
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:1993
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2092
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2398
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:2617
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2065
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2092
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2021
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2032
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:1993
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:2010
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:7360
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:7788
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:7210
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:7667
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:7745
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:7139
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:7771
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:7183
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:7194
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:7139
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:7788
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:7111
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:7194
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:7089
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:7111
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:7161
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:7210
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:7725
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:7755
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:7161
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:7172
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:7128
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:7360
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:7128
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:7150
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:7100
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:7128
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:7128
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:7771
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:7715
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:7111
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:7172
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:7683
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:7089
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:7100
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:7699
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:7111
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:7210
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:7516
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:7735
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:7183
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:7210
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:7139
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:7150
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:7111
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:7128
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:9029
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:9457
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8879
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:9336
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:9414
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:8808
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:9440
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:8852
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8863
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:8808
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:9457
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8780
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8863
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:8758
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8780
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:8830
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8879
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:9394
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:9424
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:8830
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8841
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:9029
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:8819
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:8769
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8797
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8797
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:9440
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:9384
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8780
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8841
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:9352
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:8758
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:8769
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:9368
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8780
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8879
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:9185
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:9404
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:8852
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8879
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:8808
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:8819
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8780
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8797
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:10698
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:11126
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:10548
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:11005
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:11083
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:10477
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:11109
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:10521
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:10532
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:10477
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:11126
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:10449
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:10532
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:10427
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:10449
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:10499
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:10548
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:11063
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:11093
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:10499
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:10510
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:10466
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:10698
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:10466
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:10488
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:10438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:10466
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:10466
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:11109
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:11053
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:10449
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:10510
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:11021
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:10427
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:10438
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:11037
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:10449
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:10548
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:10854
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:11073
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:10521
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:10548
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:10477
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:10488
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:10449
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:10466
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:12367
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:12795
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:12217
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:12674
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:12752
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:12146
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:12778
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:12190
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:12201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:12146
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:12795
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:12118
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:12201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:12096
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:12118
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:12168
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:12217
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:12732
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:12762
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:12168
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:12179
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:12135
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:12367
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:12135
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:12157
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:12107
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:12135
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:12135
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:12778
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:12722
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:12118
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:12179
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:12690
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:12096
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:12107
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:12706
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:12118
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:12217
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:12523
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:12742
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:12190
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:12217
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:12146
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:12157
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:12118
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:12135
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:5284
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftRim Id:5284
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontLeftTire Id:5354
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:5268
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2LeftTire Id:4830
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:4852
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1RightTire Id:5014
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:5036
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:4944
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:5036
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearLeftRim Id:4852
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear2RightTire Id:4922
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RearRightRim Id:4944
+  - First:
+      m_propagateToChildren: 0
+      m_tag: FrontRightRim Id:5198
+    Second:
+      m_propagateToChildren: 0
+      m_tag: FrontRightTire Id:5268
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftTire Id:5106
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:5128
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Truck_Body Id:3625
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Rear1LeftRim Id:5128
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225476
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225476
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 1762777623
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3619213118
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170000
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170002
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 1762777623
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3511708110
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225481
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225482
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3511708110
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3707642596
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 990284576
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1932955000
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170000
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170001
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 375886092
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1893877300
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170937548
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1305336233
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225478
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225479
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170001
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170003
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170003
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170003
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225477
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225478
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225472
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225472
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 737549090
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1918527502
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 990284576
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1893877300
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 375886092
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 2291488637
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 375886092
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 1932955000
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170000
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170000
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225482
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225483
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225474
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225475
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 170000
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 170003
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 2330998703
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3619213118
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225473
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225474
+  - First:
+      m_propagateToChildren: 0
+      m_tag: 3221225480
+    Second:
+      m_propagateToChildren: 0
+      m_tag: 3221225480
+  - First:
+      m_propagateToChildren: 0
+      m_tag: A Id:6323
+    Second:
+      m_propagateToChildren: 0
+      m_tag: B Id:6333
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:8282
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:8710
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8132
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:8589
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:8667
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:8105
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8116
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:8061
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:8710
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8008
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8116
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:7986
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8008
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:8083
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8132
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:8647
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:8677
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:8083
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8094
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8035
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:8282
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8035
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:8072
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:7997
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8035
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8035
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:8693
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:8637
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8008
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:8094
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:8693
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:8710
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:8605
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:7986
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:7997
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:8621
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8008
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8132
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:8438
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:8657
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:8105
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:8132
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:8061
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:8072
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:8008
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:8035
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:511
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:1031
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:281
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:886
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:976
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:246
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:261
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:186
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:1031
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:261
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:90
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:216
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:281
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:956
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:986
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:216
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:231
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:511
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:106
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:156
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:1006
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:946
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:231
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:1006
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:1031
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:906
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:90
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:106
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:926
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:281
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:691
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:966
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:246
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:281
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:186
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Arm Id:156
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2327
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2755
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2177
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:2634
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:2712
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2150
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2161
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2106
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2755
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2053
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2161
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:2031
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2053
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2128
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2177
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:2692
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:2722
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2128
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2139
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2080
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2327
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2080
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2117
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:2042
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2080
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2080
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2738
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:2682
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2053
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2139
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2738
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2755
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:2650
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:2031
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:2042
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:2666
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2053
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2177
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2483
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:2702
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2150
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2177
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2106
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2117
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2053
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2080
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:511
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:201
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:106
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:156
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:1006
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:121
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:156
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2377
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2805
+  - First:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2227
+    Second:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftFrontSprocket Id:2684
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller1 Id:2762
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2200
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2211
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2805
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2103
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2211
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:2081
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2103
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2178
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2227
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller2 Id:2742
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRearIdler Id:2772
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer1 Id:2178
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2189
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2130
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Bucket Id:2377
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2130
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2167
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:2092
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2130
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2130
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2788
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: LeftRoller1 Id:2732
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2103
+    Second:
+      m_propagateToChildren: 0
+      m_tag: StartCylinder1 Id:2189
+  - First:
+      m_propagateToChildren: 0
+      m_tag: RigidBody15 Id:2788
+    Second:
+      m_propagateToChildren: 0
+      m_tag: EndToBucketConnector Id:2805
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRearIdler Id:2700
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylContainerMid Id:2081
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylinderMid Id:2092
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightFrontSprocket Id:2716
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2103
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2227
+  - First:
+      m_propagateToChildren: 0
+      m_tag: UnderCarriageBody Id:2533
+    Second:
+      m_propagateToChildren: 0
+      m_tag: RightRoller2 Id:2752
+  - First:
+      m_propagateToChildren: 0
+      m_tag: StartCylContainer2 Id:2200
+    Second:
+      m_propagateToChildren: 0
+      m_tag: ChassieBody Id:2227
+  - First:
+      m_propagateToChildren: 0
+      m_tag: CylinderEnd Id:2156
+    Second:
+      m_propagateToChildren: 0
+      m_tag: CylContainerEnd Id:2167
+  - First:
+      m_propagateToChildren: 0
+      m_tag: Boom Id:2103
+    Second:
+      m_propagateToChildren: 0
+      m_tag: Stick Id:2130
+--- !u!4 &800779654
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800779652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.186537, y: 3.8242812, z: 6.574567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1174931580}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1023327923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023327929}
+  - component: {fileID: 1023327928}
+  - component: {fileID: 1023327924}
+  m_Layer: 0
+  m_Name: FollowCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1023327924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023327923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c594bc96cd514e4db1ee4ebb52cbcab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Forward: {x: -1, y: 0, z: -0.31}
+  Distance: 0.5
+  RelativePosition: {x: 0.93, y: 2.05, z: 1.22}
+  m_follow_object: {fileID: 0}
+--- !u!20 &1023327928
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023327923}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.83
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: 3
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1023327929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023327923}
+  m_LocalRotation: {x: -0.073478185, y: -0.9242918, z: 0.097982936, w: -0.3615038}
+  m_LocalPosition: {x: -13.64916, y: 8.120752, z: 25.320215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601617339}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 13.548, y: 137.733, z: 3.8330002}
+--- !u!4 &1060290806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+  m_PrefabInstance: {fileID: 4658255641003998187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1075518873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2093202431619800564, guid: b22715b7b216d9145be429acf3945802, type: 3}
+  m_PrefabInstance: {fileID: 8073655867365631919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a7ca203b9a47f4b98af78a42b50311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1079745859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079745861}
+  - component: {fileID: 1079745860}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1079745860
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079745859}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.41
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1079745861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079745859}
+  m_LocalRotation: {x: 0.9529963, y: -0.22274236, z: -0.13180725, w: 0.15751433}
+  m_LocalPosition: {x: -83.16505, y: 52.210754, z: -62.90979}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601617339}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 13.975, y: -160.65901, z: -151.296}
+--- !u!1 &1174931579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1174931580}
+  m_Layer: 0
+  m_Name: === AGXUnity ===
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1174931580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174931579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.186537, y: -3.8242812, z: -6.574567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 607288146}
+  - {fileID: 800779654}
+  - {fileID: 1942245766}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!850595691 &1658371605
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 6
+  m_GIWorkflowMode: 1
+  m_EnableBakedLightmaps: 1
+  m_EnableRealtimeLightmaps: 1
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 1
+  m_LightmapMaxSize: 1024
+  m_BakeResolution: 40
+  m_Padding: 2
+  m_LightmapCompression: 3
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 256
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 256
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentImportanceSampling: 1
+  m_PVRFilteringMode: 1
+  m_PVRDenoiserTypeDirect: 1
+  m_PVRDenoiserTypeIndirect: 1
+  m_PVRDenoiserTypeAO: 1
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_PVRTiledBaking: 0
+  m_NumRaysToShootPerTexel: -1
+  m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &1762181163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4136860526280932903, guid: b22715b7b216d9145be429acf3945802, type: 3}
+  m_PrefabInstance: {fileID: 8073655867365631919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1772402737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1772402739}
+  - component: {fileID: 1772402738}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1772402738
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772402737}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 0.66
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1772402739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772402737}
+  m_LocalRotation: {x: 0.46839863, y: 0.047598027, z: 0.59950376, w: 0.64724994}
+  m_LocalPosition: {x: -7.839161, y: 11.430752, z: 8.390215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601617339}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 33.317, y: 48.228, z: 100.871}
+--- !u!4 &1811418234 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+  m_PrefabInstance: {fileID: 8073655867365631919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1835230864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2262627113429945277, guid: b22715b7b216d9145be429acf3945802, type: 3}
+  m_PrefabInstance: {fileID: 8073655867365631919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1942245764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1942245766}
+  - component: {fileID: 1942245765}
+  m_Layer: 0
+  m_Name: AGXUnity.Simulation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1942245765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942245764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb891306a5f40346bef21f52668170e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_autoSteppingMode: 0
+  m_fixedUpdateRealTimeFactor: 0
+  m_updateRealTimeCorrectionFactor: 0.9
+  m_gravity: {x: 0, y: -9.82, z: 0}
+  m_timeStep: 0.02
+  m_solverSettings: {fileID: 11400000, guid: c6ccfb83f5e799847999e16d5314da4c, type: 2}
+  m_displayStatistics: 0
+  m_displayMemoryAllocations: 0
+  m_enableMergeSplitHandler: 0
+  m_savePreFirstStep: 0
+  m_savePreFirstStepPath: 
+  m_logEnabled: 0
+  m_logPath: 
+--- !u!4 &1942245766
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942245764}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.186537, y: 3.8242812, z: 6.574567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1174931580}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1944810543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4658255641771542786, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+  m_PrefabInstance: {fileID: 4658255641003998187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1944810545
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944810543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 386ebcbdc8800e04cb2c40500a0d24b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_storedLossyScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_topRadius: 0
+  m_bottomRadius: 0
+  m_thickness: 0
+  m_height: 0
+--- !u!1 &1993052533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993052535}
+  - component: {fileID: 1993052534}
+  m_Layer: 0
+  m_Name: AGXUnity.RuntimeObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1993052534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993052533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b6a9e4af77e3804aae97d5030ab5f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1993052535
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993052533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2001225803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001225804}
+  - component: {fileID: 2001225808}
+  - component: {fileID: 2001225807}
+  - component: {fileID: 2001225806}
+  - component: {fileID: 2001225805}
+  m_Layer: 0
+  m_Name: AGXUnity.Collide.Cylinder_Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2001225804
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001225803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 280908685}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2001225805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001225803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51c5940a8ebcfc4997616eb2929ad13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_component: {fileID: 280908684}
+--- !u!114 &2001225806
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001225803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a420c27a9ff1244a8ddb9310761d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_shape: {fileID: 280908684}
+--- !u!23 &2001225807
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001225803}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: db28eb41b616a8048896d85778138f30, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2001225808
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001225803}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2086211236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086211237}
+  - component: {fileID: 2086211241}
+  - component: {fileID: 2086211240}
+  - component: {fileID: 2086211239}
+  - component: {fileID: 2086211238}
+  m_Layer: 0
+  m_Name: AGXUnity.Collide.Box_Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086211237
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086211236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 24, y: 1, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 324741462}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086211238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086211236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f51c5940a8ebcfc4997616eb2929ad13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_component: {fileID: 324741461}
+--- !u!114 &2086211239
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086211236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a39fce5ca1a43ed488bf0d4d38bbabea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_shape: {fileID: 324741461}
+--- !u!23 &2086211240
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086211236}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4b9f68529a2500e40928a90c15903c22, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2086211241
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086211236}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2113666916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2113666917}
+  m_Layer: 0
+  m_Name: '=== SubmergedObjects === '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2113666917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113666916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.579161, y: -4.310752, z: -8.390215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 324741462}
+  - {fileID: 280908685}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2210400866059690810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bd8393dfcda7614ba44f4d1ad3f0f29, type: 3}
+  m_Name: Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_density: 1000
+  m_youngsWireStretch: 6e+10
+  m_youngsWireBend: 6e+10
+--- !u!114 &2248592869447976631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BucketMaterial_Excavator_RollerMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &3134743987640456451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BucketMaterial_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 2210400866059690810}
+  m_material2: {fileID: 2210400866059690810}
+  m_frictionModel: {fileID: 6049525738807868206}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.41667, y: 0.41667}
+--- !u!1001 &4658255641003998187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 601617339}
+    m_Modifications:
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.0108395
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2327518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.090215
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9451023
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.32677463
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150798280503279812, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 38.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516638034633296396, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa4670d5f27e539409df24548e675b20, type: 2}
+    - target: {fileID: 4153212934175175383, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_Name
+      value: Dynamic Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153212934175175383, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658255641771542784, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      propertyPath: m_material
+      value: 
+      objectReference: {fileID: 11400000, guid: f20b558b63e49a24897428c48bb8f7c5, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4658255641771542786, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1944810545}
+  m_SourcePrefab: {fileID: 100100000, guid: 7e65279f8334e0f47b393941e4e404a4, type: 3}
+--- !u!114 &5712329992809973550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Excavator_BodyMaterial_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 5066e6f3f0a446f4a8191a57209d7886, type: 2}
+  m_material2: {fileID: 2210400866059690810}
+  m_frictionModel: {fileID: -9006284505217563047}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+  m_wireFrictionCoefficients: {x: 0.41667, y: 0.41667}
+--- !u!114 &6049525738807868206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Excavator_BucketMaterial_Excavator_BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!1001 &8073655867365631919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 601617339}
+    m_Modifications:
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.5491605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6877518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.110214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864861250681398306, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111072811515623312, guid: b22715b7b216d9145be429acf3945802, type: 3}
+      propertyPath: m_Name
+      value: Excavator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b22715b7b216d9145be429acf3945802, type: 3}
