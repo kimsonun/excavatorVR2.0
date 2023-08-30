@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioSource themeMusic;
 
     public event EventHandler OnWinning;
+    private bool wasMenuPressed;
+    private bool isMenuPressedNow;
 
     private void Awake()
     {
@@ -40,12 +43,23 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        tryGetMenuButton();
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseGame();
         }
     }
 
+    private void tryGetMenuButton()
+    {
+        isMenuPressedNow = ExcavatorCustomInputController.Instance.leftController.TryGetFeatureValue(CommonUsages.menuButton, out bool menuBool);
+        if (isMenuPressedNow && !wasMenuPressed)
+        {
+            TogglePauseGame();
+        }
+        wasMenuPressed = isMenuPressedNow;
+    }
 
     public void TogglePauseGame()
     {
