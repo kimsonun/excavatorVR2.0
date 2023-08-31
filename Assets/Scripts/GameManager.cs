@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         tryGetMenuButton();
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseGame();
@@ -53,7 +52,7 @@ public class GameManager : MonoBehaviour
 
     private void tryGetMenuButton()
     {
-        isMenuPressedNow = ExcavatorCustomInputController.Instance.leftController.TryGetFeatureValue(CommonUsages.menuButton, out bool menuBool);
+        isMenuPressedNow = ExcavatorCustomInputController.Instance.leftController.TryGetFeatureValue(CommonUsages.menuButton, out bool menuBool) && menuBool;
         if (isMenuPressedNow && !wasMenuPressed)
         {
             TogglePauseGame();

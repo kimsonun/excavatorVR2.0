@@ -9,7 +9,7 @@ public class FollowTarget : MonoBehaviour
     private void Update()
     {
         transform.position = target.transform.position;
-        //if (gameObject.layer == 5)
+        if (gameObject.layer == 5)
             transform.rotation = target.transform.rotation;
     }
 }

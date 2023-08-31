@@ -49,7 +49,7 @@ public class ExcavatorController : MonoBehaviour
     }
     private void Update()
     {
-        //updateMotor();
+        updateMotor();
         updateRotateAll();
         updateRotateBody();
         updateRotateBoom();
@@ -59,7 +59,7 @@ public class ExcavatorController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        updateWheelMotor();
+        //updateWheelMotor();
     }
 
     private void updateWheelMotor()
